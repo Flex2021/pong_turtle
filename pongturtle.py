@@ -13,7 +13,7 @@ import turtle
 
 #Ventana
 wn = turtle.Screen()
-wn.title("Pong by Mundo Python")
+wn.title("Gabriel Burgos, Santiago Ortiz, Juan Saldarriaga, Juan Pinzon")
 wn.bgcolor("black")
 wn.setup(width=800, height=600)
 wn.tracer(0)
@@ -24,7 +24,7 @@ marcadorB = 0
 
 #JugadorA
 jugadorA = turtle.Turtle()
-jugadorA.speed(0)
+jugadorA.speed(5)
 jugadorA.shape("square")
 jugadorA.color("white")
 jugadorA.penup()
@@ -33,7 +33,7 @@ jugadorA.shapesize(stretch_wid=5, stretch_len=1)
 
 #JugadorA
 jugadorB = turtle.Turtle()
-jugadorB.speed(0)
+jugadorB.speed(5)
 jugadorB.shape("square")
 jugadorB.color("white")
 jugadorB.penup()
